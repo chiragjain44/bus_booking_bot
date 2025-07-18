@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 # Set the working directory in the container
-WORKDIR /main
+WORKDIR /app
 
 # Copy all project files into the container
 COPY . .
